@@ -3,6 +3,7 @@
 }
 
 html {
+  color-scheme: light dark;
   accent-color: var(--color-accent);
 }
 
@@ -14,6 +15,7 @@ body {
   max-width: 100ch;
   margin-inline: auto;
   padding-inline: 1em;
+  position: relative;
 }
 
 h1,
@@ -35,14 +37,19 @@ img {
   height: auto;
 }
 
-nav ul,
-nav li {
-  display: contents;
+label.color-scheme {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
+  font-size: 80%;
+  font-family: inherit;
 }
 
 nav {
+  --border-color: oklch(50% 10% 200 / 40%);
   display: flex;
-  border-bottom: 1px solid oklch(80% 3% 200);
+  border-bottom: 1px solid var(--border-color);
   margin-bottom: 1em;
 }
 
@@ -58,16 +65,17 @@ nav a {
 
 nav a:hover {
   border-bottom-color: var(--color-accent);
-  background-color: oklch(from var(--color-accent) 95% 5% h);
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 nav a.current {
-  border-bottom-color: oklch(80% 3% 200);
+  border-bottom-color: var(--border-color);
 }
 
 input,
 textarea,
-button {
+button,
+select {
   font: inherit;
   box-sizing: border-box;
 }
