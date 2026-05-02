@@ -1,0 +1,74 @@
+[
+  {
+    "title": "DSC 106 Lab 1 — Multi-page portfolio",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Semantic HTML site with CV, contact mailto form, and relative navigation across Home, Projects, Contact, and CV."
+  },
+  {
+    "title": "DSC 106 Lab 2 — Layout and theming",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "CSS max-width layout, flex navigation, grid + subgrid contact form, and responsive project cards with OKLCH colors."
+  },
+  {
+    "title": "DSC 106 Lab 3 — Client-side navigation",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Modular JS builds the nav from data, handles GitHub Pages base paths, theme persistence with localStorage, and improved mailto encoding."
+  },
+  {
+    "title": "DSC 106 Lab 4 — Data-driven projects",
+    "year": 2026,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "JSON-backed project list with reusable renderProjects(), homepage preview slice, and GitHub REST API profile stats."
+  },
+  {
+    "title": "CSE 151B — Deep learning baseline",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Trained and compared convolutional baselines on a course benchmark with learning-rate schedules and error analysis write-up."
+  },
+  {
+    "title": "DSC 80 — Principles of data science",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "End-to-end pandas pipeline from raw tables to reproducible figures and narrative summary for a policy-style question."
+  },
+  {
+    "title": "COGS 9 — Data and models mini-project",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Surveyed a public dataset, articulated assumptions, and communicated limitations of a simple predictive sketch."
+  },
+  {
+    "title": "DSC 10 — Foundations of data science",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Tables, sampling, and simulation labs culminating in a small group report on uncertainty in estimates."
+  },
+  {
+    "title": "Personal — Anime watchlist tracker",
+    "year": 2025,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Spreadsheet-backed tracker for seasons watched, ratings, and notes; exports CSV for archival."
+  },
+  {
+    "title": "Personal — Course schedule optimizer",
+    "year": 2024,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Constraint checklist for prerequisites and time blocks; helped compare two major plans before enrollment."
+  },
+  {
+    "title": "Kaggle-style — Tabular playground notebook",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Exploratory notebook with validation split, simple tree model, and leaderboard-style metric tracking."
+  },
+  {
+    "title": "Club — Workshop slides: Git basics",
+    "year": 2023,
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Short slide deck and live demo covering clone, branch, commit, and PR flow for first-time contributors."
+  }
+]
